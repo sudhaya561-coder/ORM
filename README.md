@@ -22,6 +22,7 @@ Execute Django admin and create details for 10 books
 ## PROGRAM
 '''
 ADMIN.PY
+
 from django.contrib import admin
 from .models import FoodDelivery
 class FoodDeliveryAdmin(admin.ModelAdmin):
@@ -41,9 +42,10 @@ class FoodDelivery(models.Model):
     UnitPrice=models.IntegerField()
     TotalAmount=models.IntegerField()
     DeliveryAddress=models.CharField()
+
 '''
 
-
+    
 
 
 ## OUTPUT
